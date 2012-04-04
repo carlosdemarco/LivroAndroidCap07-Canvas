@@ -1,0 +1,10 @@
+View
+
+public void draw(Canvas canvas)
+Manually render this view (and all of its children) to the given Canvas. 
+The view must have already done a full layout before this function is called. 
+When implementing a view, do not override this method; 
+instead, you should implement onDraw(Canvas).  
+
+protected void onDraw(Canvas canvas)
+Implement this to do your drawing.
